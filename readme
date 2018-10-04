@@ -20,4 +20,11 @@ sort.php - another utility file, I've used it a few times but you probably won't
 
 The canon/ folder contains all the examples of Anguish (in text) that I've been able to find on the Internet.  The two versions have the same filename, but different extension.  For example; carloons.anguish has the Anguish text and carloons.english has the English version of the same text.  If I find more examples online, I will add them to the canon.
 
+All of the translations or transliterations are located in the lexicon.php file.  The best way to add to the lexicon is to populate the append.txt file and then run append.php.
+
+The append.txt file should have one translation per line, English first, followed by Anguish.  All spaces should be replaced with a hypen and any contractions should use &apos; instead of "'", like this:
+
+english,anguish  
+a-phrase,a-phrase  
+isn&apos;t,isn&apos;t  
 
