@@ -1,0 +1,23 @@
+Anguish
+=======
+
+To quote [Wikipedia](https://en.wikipedia.org/wiki/Anguish_Languish)
+> The Anguish Languish, an ersatz language constructed from English language words, was created by Howard L. Chace, who collected his stories and poems in the book Anguish Languish (Prentice-Hall, 1956).[1] It is not really a language but rather a homophonic transformation created as a work of humor. Example: "Mural: Yonder nor sorghum stenches shut ladle gulls stopper torque wet strainers." This means: Moral: Under no circumstances should little girls stop to talk with strangers.
+
+The main files are located in:  
+app/  
+canon/  
+dictionaries/  
+tests/
+
+The files in the root directory do the following:  
+index.php - displays a form for translating from or into Anguish from English  
+append.php - a utility to append new transliterations from dictionaries/append.txt into dictionaries/lexicon.php  
+about.php - a simple about page  
+adhoc.php - a page for adhoc tests  
+example.php - displays examples listed in the canon/ folder  
+sort.php - another utility file, I've used it a few times but you probably won't ever need it.
+
+The canon/ folder contains all the examples of Anguish (in text) that I've been able to find on the Internet.  The two versions have the same filename, but different extension.  For example; carloons.anguish has the Anguish text and carloons.english has the English version of the same text.  If I find more examples online, I will add them to the canon.
+
+
