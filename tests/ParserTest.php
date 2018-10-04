@@ -3,8 +3,8 @@
  * ParserTest.php
  *
  * @version $Id: $
- * @package VirtualInvite
- * @copyright 2011-2016
+ * @package Anguish
+ * @copyright 2018
  */
 
 namespace Anguish;
